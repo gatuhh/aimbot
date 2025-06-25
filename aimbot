@@ -1,13 +1,13 @@
 getgenv().aimbot = {
-    Prediction = 0.0440, 
-    AutoClick = false, -- Dont work atm
-
+    Settings = {
+        Prediction = 0.0440, 
+        AutoClick = false, -- Dont work atm
+    },
     TargetLock = {
-        LockedTarget = nil, -- don't change
+        LockedTarget = nil, -- dont change
         AimPart = "Head", 
         Enabled = true, 
     },
-
     TargetStrafe = {
         Enabled = true,
         UseButton = true,  
