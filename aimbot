@@ -1,2 +1,20 @@
-print(2.0)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gatuhh/aimbot.lua/refs/heads/main/aimbot.lua"))()
+getgenv().Settings = {
+    Prediction = 0.0440, 
+    AutoClick = false, -- Dont work atm
+
+    TargetLock = {
+        LockedTarget = nil, -- don't change
+        AimPart = "Head", 
+        Enabled = true, 
+    },
+
+    TargetStrafe = {
+        Enabled = true,
+        UseButton = true,  
+        Distance = 5,  
+        Height = 5,    
+        Speed = 20,     
+    },
+}
+
+loadstring(game:HttpGet("https://pastebin.com/raw/TRX5tGeZ"))()
