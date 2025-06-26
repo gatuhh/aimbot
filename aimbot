@@ -17,4 +17,4 @@ getgenv().aimbot = {
     },
 }
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/gatuhh/aimbot/refs/heads/main/aimbot"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gatuhh/aimbot/main/aimbot"))()
